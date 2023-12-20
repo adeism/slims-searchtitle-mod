@@ -33,3 +33,6 @@ Modifikasi pencarian judul pada DefaultEngine.php
 - DefaultEngine : Ditemukan 0 dari pencarian Anda melalui kata kunci: Library Management
 - SearchBiblioEngine: menghasilkan 3 daftar biblio (menampilkan biblio dengan kata : library saja, management saja, library dan management)
 - SearchTitleMod : menghasilkan 1 daftar biblio (hanya menampilkan biblio yang mempunyai kata : library dan management)
+
+![msedge_9D9BPpRMLK](https://github.com/adeism/slims-searchtitle-mod/assets/10825264/b066aad1-9141-4f02-9a51-a17222489669)
+
