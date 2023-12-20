@@ -5,7 +5,7 @@
  * Description: Modifikasi pencarian judul 
  * Version: 1.0.0
  * Author: Ade Ismail Siregar
- * Author URI: github.com/adeism
+ * Author URI: https://github.com/adeism/
  */
 
 use SLiMS\Plugins;
