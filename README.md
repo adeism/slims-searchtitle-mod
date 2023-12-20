@@ -19,7 +19,7 @@ case 'title':
 - masuk menu sistem > Mesin Pencari > ganti ke SearchTitleMod
 
 
-## Contoh Kasus web x dengan banyak data biblio (pencarian dengan kata : krisis 2002)
-- DefaultEngine : Ditemukan 0 dari pencarian Anda melalui kata kunci: title=krisis 2002
-- SearchBiblioEngine: menghasilkan 941 daftar biblio (menampilkan biblio dengan kata : krisis saja, 2002 saja, krisis dan 2002)
-- SearchTitleMod : menghasilkan 11 daftar biblio (hanya menampilkan biblio yang mempunyai kata : krisis dan 2002)
+## Contoh Kasus pada sample biblio bawaan SLiMS (pencarian dengan kata : Library Management)
+- DefaultEngine : Ditemukan 0 dari pencarian Anda melalui kata kunci: Library Management
+- SearchBiblioEngine: menghasilkan 3 daftar biblio (menampilkan biblio dengan kata : library saja, management saja, library dan management)
+- SearchTitleMod : menghasilkan 1 daftar biblio (hanya menampilkan biblio yang mempunyai kata : library dan management)
