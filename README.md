@@ -13,7 +13,11 @@ case 'title':
                     $sql_criteria .= "(" . implode(" AND ", $likeClauses) . ")";
                     break;
 ````
-## Cara Menggunakan
+
+
+## Cara Menggunakan 
+`Sebelum menggunakan, duplikasi slims utama Anda dan tes plugin pada aplikasi slims/komputer yang berbeda`
+
 - upload plugin ke folder plugin
 - aktifkan plugin
 - masuk menu sistem > Mesin Pencari > ganti ke SearchTitleMod
