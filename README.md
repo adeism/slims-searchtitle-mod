@@ -1,7 +1,8 @@
 # slims-searchtitle-mod
-Modifikasi pencarian judul 
+Modifikasi pencarian judul pada DefaultEngine.php
 
- case 'title':
+````
+case 'title':
                     $keywords = explode(" ", $token['q']); // Membagi kata kunci menjadi array
                     $likeClauses = [];
                     foreach ($keywords as $keyword) {
@@ -10,3 +11,4 @@ Modifikasi pencarian judul
                     }
                     $sql_criteria .= "(" . implode(" AND ", $likeClauses) . ")";
                     break;
+````
