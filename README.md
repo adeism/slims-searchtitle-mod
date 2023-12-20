@@ -3,15 +3,21 @@
 Modifikasi pencarian judul pada DefaultEngine.php
 
 ````
-case 'title':
-                    $keywords = explode(" ", $token['q']); // Membagi kata kunci menjadi array
-                    $likeClauses = [];
-                    foreach ($keywords as $keyword) {
-                        $this->execute[] = "%$keyword%";
-                        $likeClauses[] = " b.title LIKE ?";
-                    }
-                    $sql_criteria .= "(" . implode(" AND ", $likeClauses) . ")";
-                    break;
+    case 'title':
+        // Memecah kata kunci pencarian menjadi array
+        $keywords = explode(" ", $token['q']);
+        $likeClauses = [];
+
+        // Iterasi melalui setiap kata kunci
+        foreach ($keywords as $keyword) {
+            // Menyiapkan kata kunci untuk digunakan dalam query
+            $this->execute[] = "%$keyword%";
+            $likeClauses[] = " b.title LIKE ?";
+        }
+
+        // Menggabungkan klausa LIKE untuk setiap kata kunci dengan AND
+        $sql_criteria .= "(" . implode(" AND ", $likeClauses) . ")";
+        break;
 ````
 
 
