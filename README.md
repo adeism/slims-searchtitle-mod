@@ -20,6 +20,6 @@ case 'title':
 
 
 ## Contoh Kasus web x dengan banyak data biblio (pencarian dengan kata : krisis 2002)
-- SearchBiblioEngine: menghasilkan 941 daftar biblio (menampilkan semua biblio yang mempunyai kata : krisis saja, 2002 saja, krisis dan 2002)
 - DefaultEngine : Ditemukan 0 dari pencarian Anda melalui kata kunci: title=krisis 2002
+- SearchBiblioEngine: menghasilkan 941 daftar biblio (menampilkan biblio dengan kata : krisis saja, 2002 saja, krisis dan 2002)
 - SearchTitleMod : menghasilkan 11 daftar biblio (hanya menampilkan biblio yang mempunyai kata : krisis dan 2002)
