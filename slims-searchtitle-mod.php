@@ -1,9 +1,10 @@
 <?php
 
 /**
- * @Created by          : Ade Ismail Siregar
+ * @Created by          : Waris Agung Widodo (ido.alit@gmail.com)
+ * @Modified by         : Ade Ismail Siregar
  * @Date                : 
- * @File name           : DefaultEngineMod.php
+ * @File name           : slims-searchtitle-mod.php
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
